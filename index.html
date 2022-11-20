@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aryan dumbhare</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/382c9e01c9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-back">
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenue">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenue()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenue()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Computer science student</p>
+                <h1>
+                    hey!,its <span>Aryan</span>
+                </h1>
+                <ui>
+
+                </ui>
+            </div>
+        </div>
+
+    </div>
+    <!--------------------------------------- ABOUT -------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aryan.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">
+                        About me
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa, beatae ratione quia cumque
+                        est amet aperiam doloremque labore, distinctio dolores repellat sunt ipsam laudantium saepe ad
+                        quis quo voluptatibus!</p>
+
+                    <div class="tab-tittle">
+                        <p class="tab-links active-link"onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"onclick="opentab('exprience')">Exprience / projects</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Developer</span><br>design front-end templets</li>
+                            <li><span>Front-end Developer</span><br>design front-end templets</li>
+                            <li><span>Front-end Developer</span><br>design front-end templets</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>exprience</span><br>design front-end templets</li>
+                            <li><span>exprience</span><br>design front-end templets</li>
+                            <li><span>exprience</span><br>design front-end templets</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UG [2023]</span><br>DR D.Y. Patil ACS</li>
+                            <li><span>HSC [2019]</span><br>SUNNY'S SPRINGDALE SCHOOL</li>
+                            <li><span>SSC [2017]</span><br>ST.PETER'S SCHOOL</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!------------------------------------------ sercices -------------------------------------->
+    <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                 <i class="fa-solid fa-code"></i> <!-------------------logo ---------------------->
+                <h2>web-design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequatur? A, totam magni! Voluptas quaerat quasi modi similique quidem perferendis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i><!-------------------logo ---------------------->
+                <h2>ui/ux-design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequatur? A, totam magni! Voluptas quaerat quasi modi similique quidem perferendis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i><!-------------------logo ---------------------->
+                <h2>app-design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequatur? A, totam magni! Voluptas quaerat quasi modi similique quidem perferendis.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+        
+        </div>
+    </div>
+    <!---------------------------------------- pottfolio --------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>personal portfolio website</h3>
+                        <p>A  website that provides information about what developer do, and how to contact him or his company.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Todo's list</h3>
+                        <p>It's a list of tasks you need to complete or things that you want to do. Most typically, they're organised in order of priority.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>CALCULATOR</h3>
+                        <p> A software that performs arithmetic operations on numbers. </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+
+    </div>
+    <!--------------------------------- contact ---------------------------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-tittle">contact me</h2>
+                <p><i class="fa-regular fa-paper-plane"></i>aryandumbhare207@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9970090238</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100004225366941"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/its_arryan__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aryan-dumbhare"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="aryan dumbhare FOR TRAINEE SOFTWARE ENGINEER (1).pdf" class="btn btn2">Downlode cv</a>
+            </div> 
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="yourname"required>
+                    <input type="email" name="email" placeholder="youremail"required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        
+
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy;Lorem ipsum dolor sit<i class="fa-regular fa-heart"></i>developer aryan</p>
+    </div>
+   </div>
+</div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classlist.add("active-tab");
+        }
+    </script>
+    <script>
+       var sidmue = document.getElementById("sidemenue");
+
+       function openmenue(){
+        sidmue.style.right="0";
+       }
+       function closemenue(){
+        sidmue.style.right="-150px";
+       }
+
+
+    </script>
+    
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby62N5eNzG06XIWTUYsp2IllBKIfKx-77X0JuyRzLHthF9p5bgLHHaHn-OJGl17mCmqRQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="message send successfully"
+                setTimeout (function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+
+
+</body>
+
+</html>
